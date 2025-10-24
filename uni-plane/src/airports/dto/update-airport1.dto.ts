@@ -1,5 +1,5 @@
 import { PartialType } from '@nestjs/mapped-types';
-import { CreateAirportDto } from './create-airport.dto';
+import { CreateAirportDto } from './create-airport1.dto';
 
 // PartialType(CreateAirportDto) = Pega todos os campos do CreateAirportDto
 // e os torna opcionais.

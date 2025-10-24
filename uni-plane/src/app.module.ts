@@ -1,18 +1,18 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { FlightsModule } from './flights/flights.module';
-import { AirportsModule } from './airports/airports.module';
 import { TypeOrmModule } from '@nestjs/typeorm'; 
 import { ConfigModule, ConfigService } from '@nestjs/config'; 
-import { AirplanesModule } from './airplanes/airplanes.module';
 import { AiplaneseatsModule } from './aiplaneseats/aiplaneseats.module';
-import { BookingsModule } from './bookings/bookings.module';
-import { CoworkersModule } from './coworkers/coworkers.module';
-import { UsersModule } from './users/users.module';
-import { PassengersModule } from './passengers/passengers.module';
 import { PaymentsModule } from './payments/payments.module';
 import { TimetablesModule } from './timetables/timetables.module';
+import { AirplanesModule } from './airplanes/airplanes.module';
+import { UsersModule } from './users/users.module';
+import { FlightsModule } from './flights/flights.module';
+import { PassengersModule } from './passengers/passengers.module';
+import { BookingsModule } from './bookings/bookings.module';
+import { AirportsModule } from './airports/airports.module';
+import { CoworkersModule } from './coworkers/coworkers.module';
 
 @Module({
   imports: [
